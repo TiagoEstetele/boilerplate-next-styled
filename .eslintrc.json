@@ -4,6 +4,10 @@
     "next/typescript",
     "prettier",
     "plugin:storybook/recommended",
-    "plugin:storybook/recommended"
-  ]
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-wrapper-object-types": "off",
+    "@typescript-eslint/no-unsafe-function-type": "off"
+  }
 }
