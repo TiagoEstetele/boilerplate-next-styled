@@ -13,7 +13,7 @@ Este é um boilerplate moderno para projetos Next.js utilizando o App Router, Ty
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://typicode.github.io/husky/)
-- [TailwindCSS](https://tailwindcss.com/)
+- [Styled Components](https://styled-components.com/)
 
 ## 📝 Pré-requisitos
 
@@ -59,23 +59,19 @@ O projeto inclui várias configurações para garantir a qualidade do código:
 1. Clone o repositório
 
 ```bash
-git clone [url-do-repositório]
+git clone https://github.com/TiagoEstetele/boilerplate-next-styled.git
 ```
 
 2. Instale as dependências
 
 ```bash
 npm install
-# ou
-yarn
 ```
 
 3. Inicie o servidor de desenvolvimento
 
 ```bash
 npm run dev
-# ou
-yarn dev
 ```
 
 4. Acesse `http://localhost:3000`
